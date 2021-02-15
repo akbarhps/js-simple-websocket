@@ -1,4 +1,4 @@
-const socket = io.connect("window.location.origin");
+const socket = io.connect(window.location.origin);
 
 let message = document.getElementById('message'),
   handle = document.getElementById('handle'),
